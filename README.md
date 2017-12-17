@@ -1,7 +1,7 @@
 **1. Clone wallet sources**
 
 ```
-git clone https://github.com/cryptonotefoundation/cryptonotewallet.git
+git clone https://github.com/nidscom/minercoinwallet.git
 ```
 
 **2. Set symbolic link to coin sources at the same level as `src`. For example:**
@@ -13,7 +13,7 @@ ln -s ../MinerCoin MinerCoin
 Alternative way is to create git submodule:
 
 ```
-git submodule add https://github.com/nidscom/MinerCoin.git MinerCoin
+git submodule add https://github.com/nidscom/minercoinwallet.git MinerCoin
 ```
 
 Replace URL with git remote repository of your coin.
